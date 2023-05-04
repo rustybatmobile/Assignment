@@ -9,6 +9,9 @@ const UserList = ({users}) =>  {
                 return (
                     <div>
                         <span>{user.name}</span>
+                        <span>{user.username}</span>
+
+
                     </div>
                 )
             })}
