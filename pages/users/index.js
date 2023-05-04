@@ -11,7 +11,7 @@ const UserList = ({users}) =>  {
                         <span>{user.name}</span>
                         <span>{user.username}</span>
                         <span>{user.email}</span>
-                        <span>{user.address}</span>
+                        <span>{user.address.city}</span>
                     </div>
                 )
             })}
