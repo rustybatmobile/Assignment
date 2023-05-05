@@ -14,7 +14,7 @@ export default Post;
 
 export async function getStaticPaths() {
     return {
-        paths: [{ params: { postId: '1' } }, { params: { postId: '2' } }],
+        paths: [{ params: { postId: '1' } }, { params: { postId: '2' } }, { params: { postId: '3' } }],
         fallback: false, // can also be true or 'blocking'
     }
 }
