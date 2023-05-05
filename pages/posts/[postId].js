@@ -10,7 +10,7 @@ const Post = ({post}) => {
     )
 }
 
-export default Post; 
+export default Post
 
 export async function getStaticPaths() {
     return {
